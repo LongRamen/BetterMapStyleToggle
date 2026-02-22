@@ -3,3 +3,4 @@ author = LongRamen
 version = 1.0
 includeSource = true
 side = Client
+homepage = https://github.com/LongRamen/BetterMapStyleToggle
