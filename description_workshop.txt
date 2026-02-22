@@ -1,0 +1,5 @@
+A very small mod that makes the "Toggle Map Style" keybind (Tab, by default) switch between showing and hiding the minimap (instead of cycling between the 3 options: minimap, no minimap, and map overlay).
+
+You can still turn on the map overlay if you need it using the map buttons in the top right when your inventory is open.
+
+Github: https://github.com/LongRamen/BetterMapStyleToggle
