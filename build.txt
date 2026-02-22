@@ -1,0 +1,5 @@
+displayName = Better Map Style Toggle
+author = LongRamen
+version = 1.0
+includeSource = true
+side = Client
