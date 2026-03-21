@@ -15,10 +15,10 @@ public class BetterMapStyleToggle : Mod
         mapStyle = typeof(Main).GetField(nameof(Main.mapStyle), BindingFlags.Public | BindingFlags.Static);
 
         if (mapStyle is null) Logger.Error("Couldn't find Main.mapStyle FieldInfo");
-        else IL_Player.Update += Hook_Update;
+        else IL_Player.Update += Hook_Player_Update;
     }
 
-    private void Hook_Update(ILContext il)
+    private void Hook_Player_Update(ILContext il)
     {
         try
         {

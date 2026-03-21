@@ -1,1 +1,5 @@
-
+Keybinds: {
+	MapStyle0.DisplayName: Map Style 0: Hidden
+	MapStyle1.DisplayName: Map Style 1: Minimap
+	MapStyle2.DisplayName: Map Style 2: Overlay
+}

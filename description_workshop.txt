@@ -2,4 +2,6 @@ A very small mod that makes the "Toggle Map Style" keybind (Tab, by default) swi
 
 You can still turn on the map overlay if you need it using the map buttons in the top right when your inventory is open.
 
+Also adds three keybinds (unassigned by default) to immediately switch to a specific map style.
+
 Github: https://github.com/LongRamen/BetterMapStyleToggle
