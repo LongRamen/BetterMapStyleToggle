@@ -5,3 +5,5 @@ You can still turn on the map overlay if you need it using the map buttons in th
 Also adds three keybinds (unassigned by default) to immediately switch to a specific map style.
 
 Github: https://github.com/LongRamen/BetterMapStyleToggle
+
+(If you want to contribute localisation, create a pull request on the above repo or leave a comment on this workshop item.)

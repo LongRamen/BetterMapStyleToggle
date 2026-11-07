@@ -1,16 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-	<!-- Import tModLoader mod properties -->
-	<Import Project="..\tModLoader.targets" />
-
-	<!-- General -->
-	<PropertyGroup>
-		
-	</PropertyGroup>
-
-	<!-- References -->
+	<Import Project="..\tModLoader.targets"/>
 	<ItemGroup>
-		
+        <Reference Include="RamenLib">
+            <HintPath>..\ModAssemblies\RamenLib_v1.0.dll</HintPath>
+        </Reference>
 	</ItemGroup>
-
 </Project>

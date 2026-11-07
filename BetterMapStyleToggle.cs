@@ -4,6 +4,8 @@ using System.Reflection;
 using Terraria;
 using Terraria.ModLoader;
 
+using RamenLib.Extensions;
+
 namespace BetterMapStyleToggle;
 
 public class BetterMapStyleToggle : Mod
@@ -12,10 +14,8 @@ public class BetterMapStyleToggle : Mod
 
     public override void Load()
     {
-        mapStyle = typeof(Main).GetField(nameof(Main.mapStyle), BindingFlags.Public | BindingFlags.Static);
-
-        if (mapStyle is null) Logger.Error("Couldn't find Main.mapStyle FieldInfo");
-        else IL_Player.Update += Hook_Player_Update;
+        mapStyle = typeof(Main).GetFieldOrThrow(nameof(Main.mapStyle));
+        IL_Player.Update += Hook_Player_Update;
     }
 
     private void Hook_Player_Update(ILContext il)

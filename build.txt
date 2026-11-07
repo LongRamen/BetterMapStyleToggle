@@ -1,6 +1,7 @@
 displayName = Better Map Style Toggle
 author = LongRamen
-version = 1.1
+version = 1.1.1
+modReferences = RamenLib@1.0
 includeSource = true
 side = Client
 homepage = https://github.com/LongRamen/BetterMapStyleToggle
